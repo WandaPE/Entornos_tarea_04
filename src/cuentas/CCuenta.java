@@ -5,6 +5,10 @@
 
 package cuentas;
 
+/**
+ * esta clase interacciona con los datos de una cuenta bancaria
+ * @author Wanda
+ */
 
 public class CCuenta {
 
@@ -36,16 +40,28 @@ public class CCuenta {
         this.saldo = saldo;
     }
 
+    /**
+     * Definimos los atributos de la clase CCuenta
+     */
     private String nombre;
     private String cuenta;
     private double saldo;
     private double tipoInterés;
 
-
+    /**
+     * Definimos un método constructor vacío
+     */
     public CCuenta()
     {
     }
 
+    /**
+     * Definimos un método constructor con parámetros
+     * @param nom
+     * @param cue
+     * @param sal
+     * @param tipo 
+     */
     public CCuenta(String nom, String cue, double sal, double tipo)
     {
         nombre =nom;
